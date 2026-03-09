@@ -1,7 +1,11 @@
-button {
-    color: #ff0000;
+body{
+    background-color: #490243;
 }
 
-body{
-    background-color: #ffa7f8;
+h1 {
+    color: white;
+}
+
+.foto-utama{
+    width: 100%;
 }
