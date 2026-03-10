@@ -1,3 +1,19 @@
+/* Bootstrap---------------*/
+:root{
+    --bs-primary: rgb(247, 0, 255);
+    --bs-primary-rgb: 247, 0, 255;
+    --bs-btn-bg: rgb(247, 0, 255);
+    --bs-link-color: rgb(247, 0, 255);
+}
+.btn-primary{
+    background-color: var(--bs-primary);
+    border-color: var(--bs-primary);
+}
+
+
+
+
+/* Tidak Bootstrap-----------------*/
 body{
     background-color: #490243;
 }
@@ -6,6 +22,13 @@ h1 {
     color: white;
 }
 
+section{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .foto-utama{
     width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
